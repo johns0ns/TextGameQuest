@@ -16,6 +16,7 @@ public class NewBehaviourScript : MonoBehaviour
     public Text titleText;
     public Text gametext;
     public Image gameimage;
+    public Image contentbackground;
 
 
     [Header("Конфиг")]
@@ -67,6 +68,7 @@ void CheckPress(int index)
         {
             activeStep = activeStep.nextStep[index];
             gametext.text = activeStep.content;
+            contentbackground.color = activeStep.StepColor;
 
         }
 
