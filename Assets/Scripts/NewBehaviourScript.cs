@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-public class TextGameQuest : MonoBehaviour
+public class NewBehaviourScript : MonoBehaviour
 {
 
     public Data dataAsset;
@@ -21,7 +21,7 @@ public class TextGameQuest : MonoBehaviour
     [Header("Конфиг")]
     public string title = "Приветули мой френд, сейчас мы сыграем в текстовый квест Монте-Кристо";
     public Font Шрифт;
-    public Step activeStep;
+    public Data activeStep;
    // Step firstStep;
 
     void Start()

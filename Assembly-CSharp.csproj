@@ -63,6 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Data.cs" />
+    <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\Step.cs" />
     <Compile Include="Assets\Scripts\TextGameQuest.cs" />
     <Reference Include="Unity.Timeline.Editor">
